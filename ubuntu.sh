@@ -3,13 +3,12 @@
 
 sudo apt install apache2 -y
 sudo systemctl start apache2 
-sudo enable apache2
+sudo systemctl enable apache2
 
 sudo apt update
 sudo  wget https://wordpress.org/latest.tar.gz
 ls
 tar -zxf latest.tar.gz
-ls wordpress/
 
 sudo apt install apache2 \
                  ghostscript \
